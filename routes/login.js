@@ -5,7 +5,7 @@ var User = mongoose.model('User');
 var Team = mongoose.model('Team');
 var Report= mongoose.model('Report');
 router.post('/', function(req,res) {
-    User.findOne(req.body)
+    User.findOne({email:req.body.email,password:req.body.password})
         .populate('myTeams','name teamId')
         .populate('memberOf','name teamId')
         .exec(function(err,data){

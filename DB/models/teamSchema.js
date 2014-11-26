@@ -22,8 +22,8 @@ var TeamSchema = new Schema({
         // value of daysForReminderMails & daysForReportMail
         //will be array of 0 to 6
         // which will represent sunday to saturday
-        daysForReminderMail:[Number],
-        daysForReportMail:[Number],
+        daysForReminderMail:[Boolean,Boolean,Boolean,,Boolean,Boolean,Boolean,Boolean],
+        daysForReportMail:[Boolean,Boolean,Boolean,,Boolean,Boolean,Boolean,Boolean],
         timeForReminderMail:{type:Number,min:00,max:23},
         timeForReportMail:{type:Number,min:00,max:23}
     }

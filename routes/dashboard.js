@@ -20,17 +20,17 @@ router.get('/:teamId',function(req,res){
 });
 router.post('/createNewTeam', function(req, res) {
 
-    var repSet={
+    /*var repSet={
         questions:[
              {question:"What did you accomplish today?",isDefault:true}
             ,{question:"What will you do tomorrow?",isDefault:true}
             ,{question:"What obstacles are impeding your progress?",isDefault:true}],
-        daysForReminderMail:[1,2,3,4,5,6],
-        daysForReportMail:[1,2,3,4,5,6],
-        timeForReminderMail:00,
-        timeForReportMail:00
+        daysForReminderMail:[false,true,true,true,true,true,true],
+        daysForReportMail:[false,true,true,true,true,true,true],
+        timeForReminderMail:10,
+        timeForReportMail:20
 
-    };
+    };*/
     var team = new Team({
         name:req.body.teamName,
         admin:req.body.creator,
@@ -40,10 +40,10 @@ router.post('/createNewTeam', function(req, res) {
                 {question:"What did you accomplish today?",isDefault:true}
                 ,{question:"What will you do tomorrow?",isDefault:true}
                 ,{question:"What obstacles are impeding your progress?",isDefault:true}],
-            daysForReminderMail:[1,2,3,4,5,6],
-            daysForReportMail:[1,2,3,4,5,6],
-            timeForReminderMail:00,
-            timeForReportMail:00
+            daysForReminderMail:[false,true,true,true,true,true,true],
+            daysForReportMail:[false,true,true,true,true,true,true],
+            timeForReminderMail:0,
+            timeForReportMail:0
 
         }
     });

@@ -7,11 +7,19 @@ angular.module('panaReporter')
             .success(function(data){
                 console.log(data);
                 $rootScope.thisTeam=data;
+                $scope.daysArray = $rootScope.thisTeam.reportSettings.daysForReminderMail;
+                $scope.days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
             })
             .error(function(err){
             console.log(err);
             });
-        $scope.deleteThisQuestion=function(indx){
+            //$rootScope.thisTeam.reportSettings=$rootScope.thisTeam.reportSettings;
+
+        $scope.tickOnDay=function(idx,val){
+            alert('working');
+            alert(idx+""+val);
+        };
+            $scope.deleteThisQuestion=function(indx){
             if($rootScope.thisTeam.reportSettings.questions[indx].isDefault){
                 alert("This is a Default Question so it can't be delete :(");
             }
@@ -38,4 +46,13 @@ angular.module('panaReporter')
         else{
             $location.url('/');
     }
+    })
+    .filter('range', function() {
+        return function(input, min, max) {
+            min = parseInt(min); //Make string input int
+            max = parseInt(max);
+            for (var i=min; i<max; i++)
+                input.push(i);
+            return input;
+        };
     });
