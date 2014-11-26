@@ -1,0 +1,52 @@
+<div class="container" xmlns="http://www.w3.org/1999/html">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Select One</h3>
+                </div>
+                <div class="panel-body">
+                    <form role="form">
+                        <fieldset>
+                            <div class="form-group">
+                                <button class="btn btn-lg btn-block btn-success" ng-click="open('sm')">Create New Team</button>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <details>
+                                    <summary class="btn btn-lg btn-block btn-info">My Teams</summary>
+                                    <hr>
+                                    <div ng-repeat="team in currentUser.myTeams">
+                                        <a class="btn btn-lg btn-block btn-warning" ng-href="#{{team.teamId}}">{{team.name}}</a>
+                                        <br>
+                                    </div>
+                                </details>
+
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <button class="btn btn-lg btn-block btn-danger" ng-click="">Teams I'm Part of</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <h3 class="modal-title">Create new Team</h3>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <input type="text" class="form-control" ng-keyup="$event.keyCode == 13 && ok(team)" ng-model="team.name" placeholder="Team Name" autofocus>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary" ng-click="ok(team)">OK</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </script>
+</div>

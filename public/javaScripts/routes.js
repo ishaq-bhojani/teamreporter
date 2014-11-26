@@ -1,17 +1,21 @@
-angular.module('panaReporter' ,['ngRoute'])
+angular.module('panaReporter' ,['ngRoute','ui.bootstrap','ui.sortable','editable'])
     .config(function($routeProvider){
         $routeProvider
             .when('/',{
                 templateUrl:'views/login.html',
                 controller:'loginCtrl'
             })
-            .when('/signUp',{
-                templateUrl:'views/signUp.html',
-                controller:'signUpCtrl'
+            .when('/signup',{
+                templateUrl:'views/signup.html',
+                controller:'signupCtrl'
             })
             .when('/dashboard',{
                 templateUrl:'views/dashboard.html',
                 controller:'dashboardCtrl'
+            })
+            .when('/:teamId',{
+                templateUrl:'views/teamView.html',
+                controller:'teamViewCtrl'
             })
             .otherwise({redirectTo:'/'});
     });

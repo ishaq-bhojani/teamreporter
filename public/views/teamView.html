@@ -1,0 +1,79 @@
+<tabset justified="true">
+    <tab heading="Members">
+
+    </tab>
+    <tab heading="Reports">
+
+    </tab>
+    <tab heading="Settings">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="login-panel panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Team Settings</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <fieldset>
+                                    <ul class="list-group">
+                                        <li class="item list-group-item text-center">Team Name</li>
+                                        <li class="item list-group-item">
+                                            <div class="input-group col-md-4">
+                                                <input type="text" class="form-control col-md-offset-12" ng-model="thisTeam.name" placeholder="Team name" autofocus>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!--<ul class="list-group">
+                                        <li class="item list-group-item">
+                                            <div class="">
+                                                <label for="inputEmail3" class="col-sm-2 control-label">Team Name</label>
+                                                <div class="col-sm-10 form-group">
+                                                    <input type="text" class="form-control" ng-model="thisTeam.name" id="inputEmail3" placeholder="Team Name">
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>-->
+                                    <div class="form-group">
+                                        <ul class="list-group">
+                                            <li class="item list-group-item text-center">Report Questions</li>
+                                            <li class="item list-group-item" ui-sortable="sortableOptions" ng-model="thisTeam.reportSettings.questions">
+                                                <div class="input-group" ng-repeat="question in thisTeam.reportSettings.questions" style="height: 35px !important;">
+                                                    <span class="input-group-addon" style="height: 35px !important;">
+                                                        <span class="glyphicon glyphicon-move" style="font-size: 18px"></span>
+                                                    </span>
+                                                    <input type="text" class="form-control" ng-model="question.question">
+                                                    <span class="input-group-btn" style="height: 35px !important;">
+                                                       <button class="btn btn-danger" ng-click="deleteThisQuestion($index)">Delete</button>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li class="item list-group-item">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" ng-model="addQuestionData" placeholder="{{addquesPlace}}">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-success" ng-click="addQuestions(addQuestionData);addQuestionData=null">Add Question</button>
+                                                </span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Sunday
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <hr>
+                                        <a href="" class="btn btn-lg btn-success btn-block">Save</a>
+                                    </div>
+                                </fieldset>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </tab>
+</tabset>

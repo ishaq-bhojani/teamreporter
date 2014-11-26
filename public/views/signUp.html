@@ -15,9 +15,9 @@
                                 <input type="email" class="form-control" name="userEmail" ng-model="user.email" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" name="password" ng-model="user.password" placeholder="Password">
+                                <input type="password" class="form-control" name="password" ng-model="user.password" ng-keyup="$event.keyCode == 13 && signup(user)" placeholder="Password">
                             </div>
-                            <button class="btn btn-lg btn-info btn-block" ng-disabled="!user.name||!user.email||!user.password" ng-click="signUp(user)">Sign Up</button>
+                            <button class="btn btn-lg btn-info btn-block" ng-disabled="!user.name||!user.email||!user.password" ng-click="signup(user)">Sign Up</button>
                             <div class="form-group">
                                 <hr>
                                 <a href="#login" class="btn btn-lg btn-success btn-block">Login</a>

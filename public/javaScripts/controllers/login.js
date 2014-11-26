@@ -1,8 +1,8 @@
 angular.module('panaReporter')
 .controller('loginCtrl',function($scope,$http,$location,$rootScope){
         $scope.login=function(user){
-            $http.post('login/login',user).success(function(data){
-                if(data.userData!=false){
+            $http.post('/login',user).success(function(data){
+                if(data._id && data.name){
                     console.log(JSON.stringify(data));
                     $rootScope.currentUser=data;
                     $location.url('/dashboard')
@@ -13,7 +13,6 @@ angular.module('panaReporter')
 
             })
                 .error(function(data){
-                    //alert(data);
                     console.log(data);
                 })
         }

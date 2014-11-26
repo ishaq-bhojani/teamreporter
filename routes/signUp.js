@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var User = mongoose.model('User');
 var Team = mongoose.model('Team');
-router.post('/signUp', function(req, res) {
+router.post('/', function(req, res) {
     var user = new User({
                 email:req.body.email,
                 password:req.body.password,

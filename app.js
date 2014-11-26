@@ -5,13 +5,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 require('./DB/connection');
-require('./DB/models/teamsSchema');
+require('./DB/models/teamSchema');
 require('./DB/models/userSchema');
-require('./DB/models/reportsSchema');
-
+require('./DB/models/reportSchema');
 var routes = require('./routes/index');
 var login = require('./routes/login');
-var signUp=require('./routes/signUp');
+var signup=require('./routes/signup');
 var dashboard=require('./routes/dashboard');
 var app = express();
 
@@ -28,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/login', login);
-app.use('/signUp', signUp);
+app.use('/signUp', signup);
 app.use('/dashboard', dashboard);
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
