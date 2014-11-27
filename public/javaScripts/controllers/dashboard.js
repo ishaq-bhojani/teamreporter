@@ -26,7 +26,7 @@ angular.module('panaReporter')
         $scope.num=1;
         $scope.addTeamReq=function(crtUser,teamName,teamId){
             $scope.teamIdInc=$scope.team.teamId+$scope.num++;
-            $http.post('dashboard/createNewTeam',{
+            $http.post('dashboard/team',{
                 creator:crtUser,
                 teamName:teamName,
                 teamId:teamId

@@ -1,4 +1,4 @@
-angular.module('panaReporter' ,['ngRoute','ui.bootstrap','ui.sortable','editable'])
+angular.module('panaReporter' ,['ngRoute','ui.bootstrap','ui.sortable'])
     .config(function($routeProvider){
         $routeProvider
             .when('/',{
@@ -17,5 +17,9 @@ angular.module('panaReporter' ,['ngRoute','ui.bootstrap','ui.sortable','editable
                 templateUrl:'views/teamView.html',
                 controller:'teamViewCtrl'
             })
+            /*.when(':teamId',{
+                templateUrl:'views/teamView.html',
+                controller:'teamViewCtrl'
+            })*/
             .otherwise({redirectTo:'/'});
     });

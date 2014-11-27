@@ -1,4 +1,13 @@
-<div class="container" xmlns="http://www.w3.org/1999/html">
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4>Pana Reporter</h4>
+        <div class="btn-group pull-right">
+            <a href="#dashboard" class="btn btn-default btn-sm">{{currentUser.name}}</a>
+            <a ng-click="logout()" class="btn btn-default btn-sm">LogOut</a>
+        </div>
+    </div>
+</div>
+<div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="login-panel panel panel-default">
@@ -25,7 +34,14 @@
                             </div>
                             <hr>
                             <div class="form-group">
-                                <button class="btn btn-lg btn-block btn-danger" ng-click="">Teams I'm Part of</button>
+                                <details>
+                                    <summary class="btn btn-lg btn-block btn-danger">Teams I'm Part of</summary>
+                                    <hr>
+                                    <div ng-repeat="team in currentUser.memberOf">
+                                        <a class="btn btn-lg btn-block btn-warning" ng-href="#{{team.teamId}}">{{team.name}}</a>
+                                        <br>
+                                    </div>
+                                </details>
                             </div>
                         </fieldset>
                     </form>

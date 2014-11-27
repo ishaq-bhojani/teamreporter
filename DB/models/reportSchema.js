@@ -3,9 +3,9 @@ var Schema = mongoose.Schema;
 
 
 var reportSchema = new Schema({
-    teamId:{ type: Schema.ObjectId, ref: 'Team'},
-    userId:{ type: Schema.ObjectId, ref: 'User'},
-    report:[{questions:String,answers:String}],
+    teamId:{type:Schema.ObjectId,ref:'Team'},
+    userId:{type:Schema.ObjectId,ref:'User'},
+    reports:[{questions:String,answers:String}],
     submitDate:Date,
     reportDate:Date
 });
