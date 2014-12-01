@@ -2,12 +2,15 @@
     <div class="panel-heading">
         <h4>Pana Reporter</h4>
         <div class="btn-group pull-right">
-            <a href="#dashboard" class="btn btn-default btn-sm">{{currentUser.name}}</a>
-            <a ng-click="logout()" class="btn btn-default btn-sm">LogOut</a>
+            <md-button href="#dashboard" class="btn md-raised btn-sm">{{currentUser.name}}</md-button>
+            <md-button ng-click="logout()" class="btn md-raised btn-sm">LogOut</md-button>
         </div>
     </div>
 </div>
-    <tabset justified="true">
+        <br><br><hr>
+<alert class="pull-right" ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.splice(0,1)">{{alert.msg}}</alert>
+<br><br><br><br>
+<tabset justified="true">
         <tab heading="Members">
             <table class="table table-hover">
                 <tr>
@@ -18,39 +21,58 @@
                 <tr ng-repeat="member in thisTeam.members">
                     <td>{{member.name}}</td>
                     <td>{{member.email}}</td>
-                    <td><button class="btn btn-danger btn-block">Delete</button></td>
+                    <td><md-button class="btn md-warn md-raised btn-block">Delete</md-button></td>
                 </tr>
                 <tr>
                     <td><input class="form-control" type="text" placeholder="Name" ng-model="addUser.name"></td>
                     <td><input class="form-control" type="email" placeholder="Email" ng-model="addUser.email"></td>
-                    <td><button class="btn btn-info btn-block" ng-click="addMember(addUser); addUser=null" ng-disabled="!addUser.name||!addUser.email">Add Member</button></td>
+                    <td><md-button class="btn md-raised md-primary btn-block" ng-click="addMember(addUser); addUser=null" ng-disabled="!addUser.name||!addUser.email">Add Member</md-button></td>
 
                 </tr>
             </table>
         </tab>
         <tab heading="Reports">
-            <div class="form-group">
-                <details ng-repeat="userReport in thisReports">
-                    <summary class="btn btn-lg btn-block btn-info">{{userReport.name}}</summary>
+            <div>
+                <div class="pull-right one-line text-center">
+                    <b class="text-justify text-info">See Reports of</b>
                     <hr>
-                    <div ng-repeat="singleReport in userReport.reports">
-                        <div>{{singleReport.questions}}</div>
-                        <div>{{singleReport.answers}}</div>
-                    </div>
-                </details>
-                <table class="table table-hover" ng-init="num=[]">
-                    <tr>
-                        <th class="text-center">Questions</th>
-                        <th class="text-center">Answers</th>
+                    <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm"></datepicker>
+                </div>
+                <!--<hr style="clear: both">-->
+                <table class="table table-hover one-line" ng-init="data123=[{questions:null.question,answers:null}]">
+                    <tr ng-repeat="question in $root.thisTeam.reportSettings.questions">
+                        <label>
+                            <td class="saparate-line">Q:{{$index+1}} {{question.question}}
+                                <input type="hidden" class="form-control hidden" value="{{data123[$index].questions=question.question}}"/>
+                            </td>
+                            <td class="saparate-line">
+                                <textarea ng-model="data123[$index].answers" class="form-control" rows="3"></textarea>
+                            </td>
+                        </label>
                     </tr>
-                <tr ng-repeat="question in thisTeam.reportSettings.questions">
-                    <label><td>{{question.question}}</td>
-                        <td><textarea ng-model="num[$index].answer" class="form-control" rows="3"></textarea></td>
-                    </label>
-                </tr>
                 </table>
-                <button class="btn btn-success btn-block" ng-click="submitReport(num); num=[] ">Submit</button>
+                <md-button class="md-raised md-primary btn-block btn-lg" ng-disabled="!data123[0].answers || !data123[1].answers || !data123[2].answers" ng-click="submitReport(data123); data123=[] ">Submit</md-button>
+                <!--<button class="btn btn-success one-line" ng-disabled="!data123[0].answers || !data123[1].answers || !data123[2].answers" ng-click="submitReport(data123); data123=[] ">Submit</button>-->
             </div>
+            <hr>
+            <div class="form-group" ng-repeat="userReport in thisReports">
+                <details>
+                    <summary class="btn btn-lg btn-block">{{userReport.userId.name}}</summary>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Questions</th>
+                            <th>Answers</th>
+                            <th>Submit Date</th>
+                        </tr>
+                        <tr ng-repeat="singleReport in userReport.reports">
+                            <td>{{singleReport.questions}}</td>
+                            <td>{{singleReport.answers}}</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </details>
+            </div>
+
         </tab>
         <tab heading="Report Settings">
             <div class="row">
@@ -67,21 +89,21 @@
                                             <li class="item list-group-item text-center">Report Questions</li>
                                             <li class="item list-group-item text-center">Drag & Drop to change the Questions Order</li>
                                             <li class="item list-group-item" ui-sortable="sortableOptions" ng-model="thisTeam.reportSettings.questions">
-                                                <div class="input-group" ng-repeat="question in thisTeam.reportSettings.questions" style="height: 35px !important;">
-                                                    <span class="input-group-addon" style="height: 35px !important;">
+                                                <div class="input-group" ng-repeat="question in thisTeam.reportSettings.questions">
+                                                    <span class="input-group-addon  size-adjust2" >
                                                             <span class="glyphicon glyphicon-move" style="font-size: 18px"></span>
                                                     </span>
-                                                    <input type="text" class="form-control" ng-model="question.question">
+                                                    <input type="text" class="form-control size-adjust" ng-model="question.question">
                                                     <span class="input-group-btn" style="height: 35px !important;">
-                                                           <button class="btn btn-danger" ng-click="deleteThisQuestion($index)">Delete</button>
+                                                           <md-button class="btn md-raised md-warn" ng-click="deleteThisQuestion($index)">Delete</md-button>
                                                         </span>
                                                 </div>
                                             </li>
                                             <li class="item list-group-item">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" ng-model="addQuestionData" placeholder="{{addquesPlace}}">
+                                                    <input type="text" class="form-control size-adjust" ng-model="addQuestionData" placeholder="{{addquesPlace}}">
                                                     <span class="input-group-btn">
-                                                        <button class="btn btn-success" ng-click="addQuestions(addQuestionData);addQuestionData=null">Add Question</button>
+                                                        <md-button class="btn btn-success md-primary md-raised" ng-click="addQuestions(addQuestionData);addQuestionData=null">Add Question</md-button>
                                                     </span>
                                                 </div>
                                             </li>
@@ -149,16 +171,17 @@
                                         <li class="item list-group-item text-center">Team Name</li>
                                         <li class="item list-group-item">
                                             <div class="input-group col-md-4">
-                                                <input type="text" class="form-control col-md-offset-12" ng-model="thisTeam.name" placeholder="Team name" autofocus>
+                                                <!--<input type="text" class="form-control col-md-offset-12" ng-model="thisTeam.name" placeholder="Team name" autofocus>-->
+                                                <md-text-float label="Team name" ng-model="thisTeam.name"></md-text-float>
                                             </div>
                                             <div class="form-group text-center">
-                                                <button ng-click="saveChanges()" class="btn btn-lg btn-info">Save</button>
+                                                <md-button ng-disabled="!thisTeam.name" ng-click="saveChanges()" class="btn btn-lg md-raised md-primary">Save</md-button>
                                             </div>
                                         </li>
                                     </ul>
                                     <div class="form-group">
                                         <hr>
-                                        <button ng-click="deleteTeam()" class="btn btn-lg btn-danger btn-block">Delete Team</button>
+                                        <md-button ng-click="deleteTeam()" class="btn btn-lg md-raised md-warn btn-block">Delete Team</md-button>
                                     </div>
                                 </fieldset>
 

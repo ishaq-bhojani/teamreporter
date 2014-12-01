@@ -1,10 +1,10 @@
 angular.module('panaReporter')
-    .controller('teamViewCtrl', function($scope, $http, $location, $rootScope, $routeParams) {
+    .controller('teamViewCtrl', function($scope, $http, $location, $rootScope, $routeParams,$timeout) {
         //$rootScope.currentUser
         if (5==5) {
             $http.get("/dashboard/"+$routeParams.teamId)
                 .success(function(data) {
-                    if(data.teamData._id){
+                    if(data.teamData){
                         console.log(data);
                         $rootScope.thisTeam=data.teamData;
                         $rootScope.thisReports=data.reports;
@@ -13,12 +13,19 @@ angular.module('panaReporter')
                 }
                 else{
                         $location.url('/dashboard');
-                        alert('Requested Team not Found');
+                        $scope.addAlert('Requested Team not Found','danger');
                     }
                 })
                 .error(function(err) {
                     console.log(err);
                 });
+            $scope.alerts=[];
+            $scope.addAlert = function(msg,type) {
+                $scope.alerts.push({msg: msg,type:type});
+                $timeout(function(){
+                    $scope.alerts.splice(0,1);
+                },3000);
+            };
             $scope.addMember=function(memberData){
                 $http.post('dashboard/addMember',{
                     team:$rootScope.thisTeam._id,
@@ -26,10 +33,10 @@ angular.module('panaReporter')
                 }).success(function(data){
                     if(data){
                         console.log(data);
-                        alert('Invitation Email Sent');
+                        $scope.addAlert('Invitation Email Sent','info');
                     }
                 }).error(function(err) {
-                    alert('Error in Adding Member ' + err);
+                    $scope.addAlert('Error in Adding Member ' + err,'danger');
                 })
             };
             $rootScope.logout=function(){
@@ -39,38 +46,49 @@ angular.module('panaReporter')
                 $location.url('/');
             };
             $scope.submitReport=function(data){
-                console.log(data);
-                /*$scope.sampleObj={
-                    teamId:$rootScope.thisTeam._id,
-                    userId:$rootScope.currentUser._id,
-                    reports:data
-                }*/
+                    $http.post('dashboard/submitReport', {
+                        teamId: $rootScope.thisTeam._id,
+                        userId: $rootScope.currentUser._id,
+                        reports: data
+                    })
+                        .success(function (data) {
+                            if(data.code==11000){
+                                $scope.addAlert('You Cant Submit Report again in a Day','danger');
+                            }
+                            else{
+                                $rootScope.thisReports.push(data);
+                            }
+                        })
+                        .error(function (err) {
+                            console.log(err);
+                        });
             };
             $scope.saveChanges = function() {
                 $http.put('dashboard/team', $rootScope.thisTeam).success(function(data) {
                     $rootScope.thisTeam = data;
-                    alert('Changes Saved');
+                    $scope.addAlert('Changes Saved','success');
                 }).error(function(err) {
-                    alert('Error in Changes Saving ' + err);
+                    $scope.addAlert('Error in Changes Saving ' + err,'danger');
                 })
             };
             $scope.deleteTeam = function() {
                 var ask=confirm("Your All Team Data & Members will delete?");
                 if(ask){
                 $http.delete('dashboard/team'+$rootScope.thisTeam._id)
-                    .success(function(data) {
+                    .success(function(data){
                         if(data=='true'){
                          $rootScope.thisTeam='';
-                         alert('Team Deleted');
-                         $location.url('/dashboard')
+                            $scope.addAlert('Team Deleted','success');
+                            $location.url('/dashboard')
                          }
                     }).error(function(err) {
-                        alert('Error in deleting team ' + err);
-                    })}
+                        $scope.addAlert('Error in deleting team ' + err,'danger');
+                    })
+                }
             };
             $scope.deleteThisQuestion = function(indx) {
                 if ($rootScope.thisTeam.reportSettings.questions[indx].isDefault) {
-                    alert("This is a Default Question so it can't be delete :(");
+                    $scope.addAlert("This is a Default Question so it can't be delete",'danger');
                 } else {
                     $rootScope.thisTeam.reportSettings.questions.splice(indx, 1);
                 }

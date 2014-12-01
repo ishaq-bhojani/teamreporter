@@ -4,7 +4,6 @@ var mongoose = require('mongoose');
 var User = mongoose.model('User');
 var Team = mongoose.model('Team');
 var Report = mongoose.model('Report');
-//var RepSet=mongoose.model('ReportSettings');
 router.get('/:teamId', function(req, res) {
     console.log(req.param('teamId'));
     Team.findOne({
@@ -17,16 +16,21 @@ router.get('/:teamId', function(req, res) {
                     teamData:data,
                     reports:err
                 })
-            } else {
-                Report.find({teamId:data._id})
-                    .populate('userId','name email')
-                    .exec(function(err,reportsData){
-                    res.json({
-                        teamData:data,
-                        reports:reportsData
-                    })
-                })
-
+            }
+            else {
+                if(data !=null){
+                    Report.find({teamId: data._id})
+                        .populate('userId', 'name email')
+                        .exec(function (err, reportsData) {
+                            res.json({
+                                teamData: data,
+                                reports: reportsData
+                            })
+                        })
+                }
+                else{
+                    res.send(data);
+                }
             }
         }
     )
@@ -61,6 +65,35 @@ router.post('/addMember', function(req, res) {
     });
 
 });
+router.post('/submitReport',function(req, res){
+
+    var subReport=new Report({
+        teamId:req.body.teamId,
+        userId:req.body.userId,
+        reports:req.body.reports,
+        submitDate:new Date()
+    });
+    subReport.save(function(err,data){
+        if(err){
+            res.send(err)
+        }
+        else{
+            //res.send(data);
+            Report.findById(data._id)
+                .populate('userId','name email')
+                .exec(function(err,reportdata){
+                    if(err){
+                        res.send(err)
+                    }
+                    else{
+                        res.json(reportdata);
+                    }
+                });
+
+            /*data*/
+        }
+    })
+        });
 router.post('/team', function(req, res) {
     var team = new Team({
         name: req.body.teamName,

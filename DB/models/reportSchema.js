@@ -6,8 +6,8 @@ var reportSchema = new Schema({
     teamId:{type:Schema.ObjectId,ref:'Team'},
     userId:{type:Schema.ObjectId,ref:'User'},
     reports:[{questions:String,answers:String}],
-    submitDate:Date,
-    reportDate:Date
+    submitDate:Date
+    /*reportDate:Date*/
 });
 
 //to identify that the user isn't sending report again in the day
