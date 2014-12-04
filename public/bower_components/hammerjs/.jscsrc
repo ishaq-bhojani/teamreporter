@@ -1,8 +1,8 @@
 {
-    "preset": "google",
-    "excludeFiles": [
-        "*.js",
-        "tests/**/assets",
-        "node_modules/**"
-    ]
+  "preset": "google",
+  "excludeFiles": [
+    "*.js",
+    "tests/**/assets",
+    "node_modules/**"
+  ]
 }

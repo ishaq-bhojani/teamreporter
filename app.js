@@ -10,8 +10,8 @@ require('./DB/models/userSchema');
 require('./DB/models/reportSchema');
 var routes = require('./routes/index');
 var login = require('./routes/login');
-var signup=require('./routes/signup');
-var dashboard=require('./routes/dashboard');
+var signup = require('./routes/signup');
+var dashboard = require('./routes/dashboard');
 var app = express();
 
 // view engine setup
@@ -29,13 +29,13 @@ app.use('/', routes);
 app.use('/login', login);
 app.use('/signUp', signup);
 app.use('/dashboard', dashboard);
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
     next(err);
 });
 if (app.get('env') === 'development') {
-    app.use(function(err, req, res, next) {
+    app.use(function (err, req, res, next) {
         res.status(err.status || 500);
         res.render('error', {
             message: err.message,
@@ -43,7 +43,7 @@ if (app.get('env') === 'development') {
         });
     });
 }
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
         message: err.message,

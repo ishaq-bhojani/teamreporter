@@ -1,25 +1,25 @@
-angular.module('panaReporter' ,['ngRoute','ui.bootstrap','ngMaterial','ui.sortable'])
-    .config(function($routeProvider){
+angular.module('panaReporter', ['ngRoute', 'ui.bootstrap', 'ngMaterial', 'ui.sortable','ngCookies'])
+    .config(function ($routeProvider) {
         $routeProvider
-            .when('/',{
-                templateUrl:'views/login.html',
-                controller:'loginCtrl'
+            .when('/', {
+                templateUrl: 'views/login.html',
+                controller: 'loginCtrl'
             })
-            .when('/signup',{
-                templateUrl:'views/signup.html',
-                controller:'signupCtrl'
+            .when('/signup', {
+                templateUrl: 'views/signup.html',
+                controller: 'signupCtrl'
             })
-            .when('/dashboard',{
-                templateUrl:'views/dashboard.html',
-                controller:'dashboardCtrl'
+            .when('/dashboard', {
+                templateUrl: 'views/dashboard.html',
+                controller: 'dashboardCtrl'
             })
-            .when('/:teamId',{
-                templateUrl:'views/teamView.html',
-                controller:'teamViewCtrl'
+            .when('/:teamId', {
+                templateUrl: 'views/teamView.html',
+                controller: 'teamViewCtrl'
             })
             /*.when(':teamId',{
-                templateUrl:'views/teamView.html',
-                controller:'teamViewCtrl'
-            })*/
-            .otherwise({redirectTo:'/'});
+             templateUrl:'views/teamView.html',
+             controller:'teamViewCtrl'
+             })*/
+            .otherwise({redirectTo: '/'});
     });

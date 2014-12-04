@@ -4,100 +4,125 @@ var mongoose = require('mongoose');
 var User = mongoose.model('User');
 var Team = mongoose.model('Team');
 var Report = mongoose.model('Report');
-router.get('/:teamId', function(req, res) {
-    console.log(req.param('teamId'));
-    Team.findOne({
-        teamId: req.param('teamId')
-    }).populate('members','name email')
-        .populate('admin','name email').exec(
-        function(err, data) {
+router.get('/:teamId', function (req, res) {
+    if (req.cookies.user) {
+        Team.findOne({
+            teamId: req.param('teamId')
+        }).populate('members', 'name email')
+            .populate('admin', 'name email').exec(
+            function (err, data) {
+                if (err) {
+                    res.json(err)
+                }
+                else {
+                    if (data != null) {
+                        res.send(data);
+                    }
+                    else {
+                        res.send(null)
+                    }
+                }
+            }
+        )
+    }
+
+});
+router.post('/addMember', function (req, res) {
+    Team.findOne(req.cookies.team).exec(function (err, teamData) {
+        if (!err) {
+            if (teamData.admin._id == req.cookies.user) {
+                var user = new User({
+                    email: req.body.data.email,
+                    password: '12345',
+                    name: req.body.data.name,
+                    memberOf: [req.cookies.team],
+                    myTeams: []
+                });
+                user.save(function (err, userData) {
+                    if (err) {
+                        res.send(err);
+                    }
+                    else {
+                        teamData.members.push(userData._id);
+                        teamData.save(function (err, data) {
+                            if (err) {
+                                console.log(err)
+                            }
+                            else {
+                                res.send(true);
+                            }
+                        })
+                    }
+
+                });
+            }
+        }
+
+    });
+
+
+});
+router.post('/submitReport', function (req, res) {
+    var dateTime = new Date();
+    var day = dateTime.getDay();
+    var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var date = dateTime.getDate();
+    var month = dateTime.getMonth();
+    var monthsArray = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+    var year = dateTime.getFullYear();
+    //Tuesday, December 16, 2014
+    var finalDate = dayArray[day] + ', ' + monthsArray[month] + ' ' + date + ', ' + year;
+    var hours = dateTime.getHours();
+    var minutes = dateTime.getMinutes();
+    var finalTime = hours + ':' + minutes;
+    if (req.cookies.team && req.cookies.user) {
+        var subReport = new Report({
+            teamId: req.cookies.team,
+            userId: req.cookies.user,
+            reports: req.body.reports,
+            submitDate: finalDate,
+            submitTime: finalTime
+        });
+        subReport.save(function (err, data) {
             if (err) {
-                res.json({
-                    teamData:data,
-                    reports:err
-                })
+                res.send(err)
             }
             else {
-                if(data !=null){
-                    Report.find({teamId: data._id})
-                        .populate('userId', 'name email')
-                        .exec(function (err, reportsData) {
-                            res.json({
-                                teamData: data,
-                                reports: reportsData
-                            })
-                        })
-                }
-                else{
-                    res.send(data);
-                }
+                //res.send(data);
+                Report.findById(data._id)
+                    .populate('userId', 'name email')
+                    .exec(function (err, reportdata) {
+                        if (err) {
+                            res.send(err)
+                        }
+                        else {
+                            res.json(reportdata);
+                        }
+                    });
             }
-        }
-    )
-});
-router.post('/addMember', function(req, res) {
-    var user = new User({
-        email:req.body.data.email,
-        password:'12345',
-        name:req.body.data.name,
-        memberOf:[req.body.team],
-        myTeams:[]
-    });
-    user.save(function(err,userData){
-        if(err){
-            res.send(err);
-        }
-        else{
-            Team.findOne(req.body.team).exec(function(err,data){
-               if(!err){
-                   data.members.push(userData._id);
-               }data.save(function(err,data){
-                    if(err){
-                        console.log(err)
-                    }
-                    else{
-                        res.send(true);
-                    }
-                });
-            });
-
-        }
-    });
+        })
+    }
+    else {
+        res.send(false);
+    }
 
 });
-router.post('/submitReport',function(req, res){
-
-    var subReport=new Report({
-        teamId:req.body.teamId,
-        userId:req.body.userId,
-        reports:req.body.reports,
-        submitDate:new Date()
-    });
-    subReport.save(function(err,data){
-        if(err){
-            res.send(err)
-        }
-        else{
-            //res.send(data);
-            Report.findById(data._id)
-                .populate('userId','name email')
-                .exec(function(err,reportdata){
-                    if(err){
-                        res.send(err)
-                    }
-                    else{
-                        res.json(reportdata);
-                    }
-                });
-
-            /*data*/
-        }
-    })
-        });
-router.post('/team', function(req, res) {
+router.post('/findReport', function (req, res) {
+    Report.find({submitDate: req.body.date})
+        .exec(function (err, data) {
+            if (err) {
+                res.send(err)
+            }
+            else {
+                res.json(data);
+            }
+        })
+});
+router.post('/team', function (req, res) {
     var team = new Team({
         name: req.body.teamName,
-        admin: req.body.creator,
+        admin: req.cookies.user,
         teamId: req.body.teamId,
         reportSettings: {
             questions: [{
@@ -117,18 +142,18 @@ router.post('/team', function(req, res) {
 
         }
     });
-    team.save(function(err, teamData) {
+    team.save(function (err, teamData) {
 
         if (err) {
             res.send(err);
         } else {
             var teamId = teamData._id;
-            User.findById(req.body.creator).exec(function(err, userData) {
+            User.findById(req.body.creator).exec(function (err, userData) {
                 if (err) {
                     console.log(err)
                 } else {
                     userData.myTeams.push(teamId);
-                    userData.save(function(err, data) {
+                    userData.save(function (err, data) {
                         console.log(data);
                         res.json({
                             _id: teamData._id,
@@ -142,9 +167,13 @@ router.post('/team', function(req, res) {
 
     })
 });
-router.put('/team', function(req, res) {
+router.put('/team', function (req, res) {
+    delete req.body.admin;
+    delete req.body.members;
     Team.findByIdAndUpdate(req.body._id, req.body)
-        .exec(function(err, data) {
+        .populate('admin', 'name email')
+        .populate('members', 'name email')
+        .exec(function (err, data) {
             if (err) {
                 res.send(err);
             } else {
@@ -152,8 +181,8 @@ router.put('/team', function(req, res) {
             }
         })
 });
-router.delete('/team:id', function(req, res) {
-    Team.findByIdAndRemove(req.param('id'), function(err) {
+router.delete('/team:id', function (req, res) {
+    Team.findByIdAndRemove(req.param('id'), function (err) {
         if (err) {
             res.send(err);
         } else {

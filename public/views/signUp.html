@@ -9,18 +9,24 @@
                     <form role="form">
                         <fieldset>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="username" ng-model="user.name" placeholder="Name" autofocus>
+                                <md-text-float type="text" label="First & Last Name" ng-model="user.name"
+                                               autofocus></md-text-float>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" name="userEmail" ng-model="user.email" placeholder="Email">
+                                <md-text-float type="email" label="Email" ng-model="user.email"></md-text-float>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" name="password" ng-model="user.password" ng-keyup="$event.keyCode == 13 && signup(user)" placeholder="Password">
+                                <md-text-float type="password" label="Password" ng-model="user.password"
+                                               ng-keyup="$event.keyCode == 13 && signup(user)"></md-text-float>
                             </div>
-                            <button class="btn btn-lg btn-info btn-block" ng-disabled="!user.name||!user.email||!user.password" ng-click="signup(user)">Sign Up</button>
+                            <md-button class="btn btn-lg md-raised md-primary btn-block"
+                                       ng-disabled="!user.name||!user.email||!user.password" ng-click="signup(user)">
+                                Sign
+                                Up
+                            </md-button>
                             <div class="form-group">
                                 <hr>
-                                <a href="#login" class="btn btn-lg btn-success btn-block">Login</a>
+                                <md-button href="#/" class="btn btn-lg md-raised md-warn btn-block">Login</md-button>
                             </div>
                         </fieldset>
                     </form>

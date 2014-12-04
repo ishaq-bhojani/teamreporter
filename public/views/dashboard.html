@@ -1,6 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-heading">
         <h4>Pana Reporter</h4>
+
         <div class="btn-group pull-right">
             <md-button href="#dashboard" class="btn md-raised btn-sm">{{currentUser.name}}</md-button>
             <md-button ng-click="logout()" class="btn md-raised btn-sm">LogOut</md-button>
@@ -8,6 +9,9 @@
     </div>
 </div>
 <div class="container">
+    <alert class="pull-right" ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.splice(0,1)">
+        {{alert.msg}}
+    </alert>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="login-panel panel panel-default">
@@ -18,7 +22,8 @@
                     <form role="form">
                         <fieldset>
                             <div class="form-group">
-                                <button class="btn btn-lg btn-block btn-success" ng-click="open('sm')">Create New Team</button>
+                                <md-button class="btn btn-lg btn-block md-raised" ng-click="open('sm')">Create New Team
+                                </md-button>
                             </div>
                             <hr>
                             <div class="form-group">
@@ -26,7 +31,9 @@
                                     <summary class="btn btn-lg btn-block btn-info">My Teams</summary>
                                     <hr>
                                     <div ng-repeat="team in currentUser.myTeams">
-                                        <a class="btn btn-lg btn-block btn-warning" ng-href="#{{team.teamId}}">{{team.name}}</a>
+                                        <md-button class="btn btn-lg btn-block md-raised md-primary"
+                                                   ng-href="#{{team.teamId}}">{{team.name}}
+                                        </md-button>
                                         <br>
                                     </div>
                                 </details>
@@ -38,7 +45,9 @@
                                     <summary class="btn btn-lg btn-block btn-danger">Teams I'm Part of</summary>
                                     <hr>
                                     <div ng-repeat="team in currentUser.memberOf">
-                                        <a class="btn btn-lg btn-block btn-warning" ng-href="#{{team.teamId}}">{{team.name}}</a>
+                                        <md-button class="btn btn-lg btn-block md-raised md-warn"
+                                                   ng-href="#{{team.teamId}}">{{team.name}}
+                                        </md-button>
                                         <br>
                                     </div>
                                 </details>
@@ -50,19 +59,27 @@
         </div>
     </div>
 </div>
+
 <div>
     <script type="text/ng-template" id="myModalContent.html">
+
         <div class="modal-header">
             <h3 class="modal-title">Create new Team</h3>
         </div>
         <div class="modal-body">
             <div class="form-group">
-                <input type="text" class="form-control" ng-keyup="$event.keyCode == 13 && ok(team)" ng-model="team.name" placeholder="Team Name" autofocus>
+                <md-text-float type="text" label="Team Name" ng-model="team.name"></md-text-float>
+                <md-text-float type="text" label="Team Id" ng-model="team.teamId"
+                               ng-keyup="$event.keyCode == 13 && ok(team)"></md-text-float>
+            </div>
+            <div class="alert-danger" ng-show="teamDuplicate">
+                Team Id Already Exist try Some Unique
             </div>
         </div>
         <div class="modal-footer">
-            <button class="btn btn-primary" ng-click="ok(team)">OK</button>
-            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+            <md-button class="btn md-primary md-raised" ng-disabled="!team.name||!team.teamId" ng-click="ok(team)">OK
+            </md-button>
+            <md-button class="btn md-warn md-raised" ng-click="cancel()">Cancel</md-button>
         </div>
     </script>
 </div>

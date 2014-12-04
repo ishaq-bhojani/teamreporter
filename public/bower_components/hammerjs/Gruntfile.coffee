@@ -14,7 +14,7 @@ module.exports = (grunt) ->
  * Licensed under the <%= _.pluck(pkg.licenses, "type").join(", ") %> license */'
           linebreak: true
         files:
-          src: ['./hammer.js','./hammer.min.js']
+          src: ['./hammer.js', './hammer.min.js']
 
     concat:
       build:
@@ -39,7 +39,7 @@ module.exports = (grunt) ->
           sourceMap: 'hammer.min.map'
         files:
           'hammer.min.js': ['hammer.js']
-       # special test build that exposes everything so it's testable
+    # special test build that exposes everything so it's testable
       test:
         options:
           wrap: "$H"
@@ -68,9 +68,9 @@ module.exports = (grunt) ->
           'hammer.js': 'hammer.js'
         options:
           replacements: [
-              pattern: '{{PKG_VERSION}}'
-              replacement: '<%= pkg.version %>'
-            ]
+            pattern: '{{PKG_VERSION}}'
+            replacement: '<%= pkg.version %>'
+          ]
 
     jshint:
       options:
@@ -90,7 +90,7 @@ module.exports = (grunt) ->
     watch:
       scripts:
         files: ['src/**/*.js']
-        tasks: ['concat','string-replace','uglify','jshint','jscs']
+        tasks: ['concat', 'string-replace', 'uglify', 'jshint', 'jscs']
         options:
           interrupt: true
 

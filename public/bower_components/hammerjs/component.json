@@ -1,8 +1,8 @@
 {
-    "name": "hammerjs",
-    "version": "2.0.3",
-    "main": "hammer.js",
-    "scripts": [
-      "hammer.js"
-    ]
+  "name": "hammerjs",
+  "version": "2.0.3",
+  "main": "hammer.js",
+  "scripts": [
+    "hammer.js"
+  ]
 }
