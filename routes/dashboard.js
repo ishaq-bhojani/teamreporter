@@ -28,14 +28,14 @@ router.get('/:teamId', function (req, res) {
 
 });
 router.post('/addMember', function (req, res) {
-    Team.findOne(req.cookies.team).exec(function (err, teamData) {
+    Team.findOne(req.cookies.myTeam).exec(function (err, teamData) {
         if (!err) {
-            if (teamData.admin._id == req.cookies.user) {
+            if (teamData.admin == req.cookies.user) {
                 var user = new User({
-                    email: req.body.data.email,
+                    email: req.body.email,
                     password: '12345',
-                    name: req.body.data.name,
-                    memberOf: [req.cookies.team],
+                    name: req.body.name,
+                    memberOf: [req.cookies.myTeam],
                     myTeams: []
                 });
                 user.save(function (err, userData) {
@@ -76,9 +76,9 @@ router.post('/submitReport', function (req, res) {
     var hours = dateTime.getHours();
     var minutes = dateTime.getMinutes();
     var finalTime = hours + ':' + minutes;
-    if (req.cookies.team && req.cookies.user) {
+    if (req.cookies.myTeam && req.cookies.user) {
         var subReport = new Report({
-            teamId: req.cookies.team,
+            teamId: req.cookies.myTeam,
             userId: req.cookies.user,
             reports: req.body.reports,
             submitDate: finalDate,
@@ -109,7 +109,12 @@ router.post('/submitReport', function (req, res) {
 
 });
 router.post('/findReport', function (req, res) {
-    Report.find({submitDate: req.body.date})
+    if (!req.cookies.myTeam) {
+        res.end("not found");
+        return;
+    }
+    Report.find({submitDate: req.body.date, teamId: req.cookies.myTeam})
+        .populate('userId', 'name')
         .exec(function (err, data) {
             if (err) {
                 res.send(err)
@@ -154,7 +159,6 @@ router.post('/team', function (req, res) {
                 } else {
                     userData.myTeams.push(teamId);
                     userData.save(function (err, data) {
-                        console.log(data);
                         res.json({
                             _id: teamData._id,
                             name: teamData.name,
@@ -170,23 +174,52 @@ router.post('/team', function (req, res) {
 router.put('/team', function (req, res) {
     delete req.body.admin;
     delete req.body.members;
-    Team.findByIdAndUpdate(req.body._id, req.body)
-        .populate('admin', 'name email')
-        .populate('members', 'name email')
-        .exec(function (err, data) {
+    Team.findOne({_id: req.cookies.myTeam})
+        .exec(
+        function (err, data) {
             if (err) {
-                res.send(err);
-            } else {
-                res.json(data);
+                res.send(err)
+            }
+            else {
+                if (data.admin == req.cookies.user) {
+                    Team.findByIdAndUpdate(req.cookies.myTeam, req.body)
+                        .populate('admin', 'name email')
+                        .populate('members', 'name email')
+                        .exec(function (err, data) {
+                            if (err) {
+                                res.send(err);
+                            } else {
+                                res.json(data);
+                            }
+                        })
+                }
             }
         })
+    /*Team.findByIdAndUpdate(req.body._id, req.body)
+     .populate('admin', 'name email')
+     .populate('members', 'name email')
+     .exec(function (err, data) {
+     if (err) {
+     res.send(err);
+     } else {
+     res.json(data);
+     }
+     })*/
 });
-router.delete('/team:id', function (req, res) {
-    Team.findByIdAndRemove(req.param('id'), function (err) {
+router.post('/teamDelete', function (req, res) {
+    Team.findByIdAndRemove(req.cookies.myTeam, function (err) {
         if (err) {
             res.send(err);
         } else {
-            res.send(true);
+            User.findOne(req.cookies.user)
+                .exec(function (err, data) {
+                    if (err) {
+                        res.send(err)
+                    }
+                    else {
+                        res.json(data);
+                    }
+                });
         }
     })
 });

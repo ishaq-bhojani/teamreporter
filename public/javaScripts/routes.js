@@ -1,4 +1,4 @@
-angular.module('panaReporter', ['ngRoute', 'ui.bootstrap', 'ngMaterial', 'ui.sortable','ngCookies'])
+angular.module('panaReporter', ['ngRoute', 'ui.bootstrap', 'ngMaterial', 'ui.sortable', 'ngCookies'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {

@@ -1,8 +1,24 @@
 angular.module('panaReporter')
-    .controller('dashboardCtrl', function ($scope, $http, $location, $rootScope, $modal) {
-        if (!$rootScope.currentUser) {
+    .controller('dashboardCtrl', function ($scope, $http, $location, $rootScope, $modal, $cookies) {
+        if ($cookies.user != null) {
+            $http.get('/login')
+                .success(function (data) {
+                    console.log(data);
+                    if (data._id) {
+                        $rootScope.currentUser = data;
+                        $cookies.user = data._id;
+                        $cookies.myName = data.name;
+                        console.log($cookies.user);
+                    }
+                })
+                .error(function (err) {
+                    $location.url('/');
+                })
+        }
+        else {
             $location.url('/');
         }
+        $scope.userName = $cookies.myName;
         $scope.open = function (size) {
             var modalInstance = $modal.open({
                 templateUrl: 'myModalContent.html',
@@ -11,16 +27,17 @@ angular.module('panaReporter')
             });
         };
         $scope.logout = function () {
-            $cookies.user=null;
-            $cookies.team=null;
+            $location.url('/');
+            $cookies.user = null;
+            $cookies.team = null;
             $rootScope.thisTeam = null;
             $rootScope.thisReports = null;
             $rootScope.currentUser = null;
-            $location.url('/');
+
         };
     })
-    .controller('ModalInstanceCtrl', function ($scope, $modalInstance, $timeout, $http, $rootScope, $location) {
-        if (!$rootScope.currentUser) {
+    .controller('ModalInstanceCtrl', function ($scope, $cookies, $modalInstance, $timeout, $http, $rootScope, $location) {
+        if ($cookies.user == null) {
             $location.url('/');
         }
         $scope.team = {
@@ -48,7 +65,6 @@ angular.module('panaReporter')
                 teamName: team.name,
                 teamId: team.teamId
             }).success(function (data) {
-                console.log(data);
                 if (data._id) {
                     $modalInstance.close();
                     $rootScope.currentUser.myTeams.push(data);
@@ -57,9 +73,6 @@ angular.module('panaReporter')
                 else {
                     if (data.code == 11000) {
                         $scope.teamDuplicate = true;
-                    }
-                    else {
-                        console.log(data);
                     }
                 }
 

@@ -5,12 +5,15 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">Please Sign In</h3>
                 </div>
+                <alert class="pull-right" ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.splice(0,1)">
+                    {{alert.msg}}
+                </alert>
                 <div class="panel-body">
                     <form role="form">
                         <fieldset>
                             <div class="form-group">
                                 <md-text-float type="email" label="Email" ng-model="user.email"
-                                               autofocus></md-text-float>
+                                               autofocus="on" autocomplete="on"></md-text-float>
                             </div>
                             <div class="form-group">
                                 <md-text-float type="password" label="Password" ng-model="user.password"

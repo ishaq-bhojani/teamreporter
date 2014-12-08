@@ -5,6 +5,9 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">Please Sign Up</h3>
                 </div>
+                <alert class="pull-right" ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.splice(0,1)">
+                    {{alert.msg}}
+                </alert>
                 <div class="panel-body">
                     <form role="form">
                         <fieldset>

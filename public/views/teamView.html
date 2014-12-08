@@ -1,14 +1,18 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h4>Pana Reporter</h4>
+        <h3>{{thisTeam.name}}</h3>
 
         <div class="btn-group pull-right">
-            <md-button ng-href="#dashboard" class="btn md-raised btn-sm">{{currentUser.name}}</md-button>
+            <md-button ng-href="#dashboard" class="btn md-raised btn-sm">{{userName}}</md-button>
             <md-button ng-click="logout()" class="btn md-raised btn-sm">LogOut</md-button>
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
 <hr>
+
 <alert class="alert-style" ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.splice(0,1)">{{alert.msg}}
 </alert>
 <tabset justified="true">
@@ -17,16 +21,16 @@
             <tr>
                 <th class="text-center">Name</th>
                 <th class="text-center">Email</th>
-                <th class="text-center">Delete from Team</th>
+                <th ng-hide="isNotAdmin" class="text-center">Delete from Team</th>
             </tr>
             <tr ng-repeat="member in thisTeam.members">
                 <td>{{member.name}}</td>
                 <td>{{member.email}}</td>
-                <td>
+                <td ng-hide="isNotAdmin">
                     <md-button class="btn md-warn md-raised btn-block">Delete</md-button>
                 </td>
             </tr>
-            <tr>
+            <tr ng-hide="isNotAdmin">
                 <td><input class="form-control" type="text" placeholder="Name" ng-model="addUser.name"></td>
                 <td><input class="form-control" type="email" placeholder="Email" ng-model="addUser.email"></td>
                 <td>
@@ -39,7 +43,8 @@
         </table>
     </tab>
     <tab heading="Reports">
-        <md-button class="md-primary md-raised btn btn-md" ng-show="showButton" ng-click="showButton=false;showRepSub=true;">Submit
+        <md-button class="md-primary md-raised btn btn-md" ng-show="showButton"
+                   ng-click="showButton=false;showRepSub=true;">Submit
             / Edit Today's Report
         </md-button>
 
@@ -65,6 +70,8 @@
             </md-button>
         </div>
         <hr>
+        <h2 class="text-center text-info" ng-show="thisReports.length==0">Sorry there are no reports of
+            {{finalDate}}</h2>
 
         <div class="form-group" ng-repeat="userReport in thisReports">
             <details>
@@ -75,8 +82,10 @@
                 </summary>
                 <table class="table table-hover text-center">
                     <tr ng-repeat="singleReport in userReport.reports">
-                        <td class="saparate-line"><b>Q:{{$index+1}} {{singleReport.questions}}</b></td>
-                        <td class="saparate-line" value="singleReport.answers=singleReport.answers.replace('\n','<br />')">{{singleReport.answers}}</td>
+                        <td class="saparate-line text-left"><b>Q:{{$index+1}} {{singleReport.questions}}</b></td>
+                        <td class="saparate-line text-left">
+                            <pre>{{singleReport.answers}}</pre>
+                        </td>
                     </tr>
                 </table>
             </details>
@@ -84,10 +93,11 @@
         <div class="pull-right one-line">
             <b class="text-justify text-info">See Reports of</b>
             <hr>
-            <datepicker ng-model="reportOfDate" ng-change="getReportOf(reportOfDate)" show-weeks="true" class="well well-sm"></datepicker>
+            <datepicker ng-model="reportOfDate" ng-change="getReportOf(reportOfDate)" show-weeks="true"
+                        class="well well-sm"></datepicker>
         </div>
     </tab>
-    <tab heading="Report Settings" disabled="isNotAdmin">
+    <tab heading="Report Settings" ng-hide="isNotAdmin">
         <div class="row">
             <div class="col-md-12">
                 <div class="login-panel panel panel-default">
@@ -104,9 +114,9 @@
                                             Order
                                         </li>
                                         <li class="item list-group-item" ui-sortable="sortableOptions"
-                                            ng-model="thisTeam.reportSettings.questions">
+                                            ng-model="sampleObj.reportSettings.questions">
                                             <div class="input-group"
-                                                 ng-repeat="question in thisTeam.reportSettings.questions">
+                                                 ng-repeat="question in sampleObj.reportSettings.questions">
                                                     <span class="input-group-addon  size-adjust2">
                                                             <span class="glyphicon glyphicon-move"
                                                                   style="font-size: 18px"></span>
@@ -140,8 +150,8 @@
                                 <br>
 
                                 <div class="form-group text-center">
-                                    <span ng-repeat="e in thisTeam.reportSettings.daysForReportMail track by $index">
-                                            <md-checkbox ng-model="thisTeam.reportSettings.daysForReportMail[$index]">
+                                    <span ng-repeat="e in sampleObj.reportSettings.daysForReportMail track by $index">
+                                            <md-checkbox ng-model="sampleObj.reportSettings.daysForReportMail[$index]">
                                                 {{days[$index]}}
                                             </md-checkbox>
                                     </span>
@@ -153,8 +163,9 @@
                                 <br>
 
                                 <div class="form-group text-center">
-                                        <span ng-repeat="e in thisTeam.reportSettings.daysForReminderMail track by $index">
-                                            <md-checkbox ng-model="thisTeam.reportSettings.daysForReminderMail[$index]">
+                                        <span ng-repeat="e in sampleObj.reportSettings.daysForReminderMail track by $index">
+                                            <md-checkbox
+                                                    ng-model="sampleObj.reportSettings.daysForReminderMail[$index]">
                                                 {{days[$index]}}
                                             </md-checkbox>
                                         </span>
@@ -163,15 +174,61 @@
                                 <div class="form-group text-center">
                                     <label>
                                         Time to Send Report Mail
-                                        <select ng-model="thisTeam.reportSettings.timeForReportMail">
-                                            <option ng-repeat="reportTime in [] | range:0:24">{{reportTime}}</option>
+                                        <select ng-model="sampleObj.reportSettings.timeForReportMail">
+                                            <option value="0">0:00</option>
+                                            <option value="1">1:00</option>
+                                            <option value="2">2:00</option>
+                                            <option value="3">3:00</option>
+                                            <option value="4">4:00</option>
+                                            <option value="5">5:00</option>
+                                            <option value="6">6:00</option>
+                                            <option value="7">7:00</option>
+                                            <option value="8">8:00</option>
+                                            <option value="9">9:00</option>
+                                            <option value="10">10:00</option>
+                                            <option value="11">11:00</option>
+                                            <option value="12">12:00</option>
+                                            <option value="13">13:00</option>
+                                            <option value="14">14:00</option>
+                                            <option value="15">15:00</option>
+                                            <option value="16">16:00</option>
+                                            <option value="17">17:00</option>
+                                            <option value="18">18:00</option>
+                                            <option value="19">19:00</option>
+                                            <option value="20">20:00</option>
+                                            <option value="21">21:00</option>
+                                            <option value="22">22:00</option>
+                                            <option value="23">23:00</option>
                                         </select>
                                     </label>
                                     |
                                     <label>
                                         Time to Send Reminder Mail
-                                        <select ng-model="thisTeam.reportSettings.timeForReminderMail">
-                                            <option ng-repeat="reportTime in [] | range:0:24">{{reportTime}}</option>
+                                        <select ng-model="sampleObj.reportSettings.timeForReminderMail">
+                                            <option value="0">0:00</option>
+                                            <option value="1">1:00</option>
+                                            <option value="2">2:00</option>
+                                            <option value="3">3:00</option>
+                                            <option value="4">4:00</option>
+                                            <option value="5">5:00</option>
+                                            <option value="6">6:00</option>
+                                            <option value="7">7:00</option>
+                                            <option value="8">8:00</option>
+                                            <option value="9">9:00</option>
+                                            <option value="10">10:00</option>
+                                            <option value="11">11:00</option>
+                                            <option value="12">12:00</option>
+                                            <option value="13">13:00</option>
+                                            <option value="14">14:00</option>
+                                            <option value="15">15:00</option>
+                                            <option value="16">16:00</option>
+                                            <option value="17">17:00</option>
+                                            <option value="18">18:00</option>
+                                            <option value="19">19:00</option>
+                                            <option value="20">20:00</option>
+                                            <option value="21">21:00</option>
+                                            <option value="22">22:00</option>
+                                            <option value="23">23:00</option>
                                         </select>
                                     </label>
                                 </div>
@@ -189,7 +246,7 @@
             </div>
         </div>
     </tab>
-    <tab heading="Team Settings" disabled="isNotAdmin">
+    <tab heading="Team Settings" ng-hide="isNotAdmin">
 
         <div class="row">
             <div class="col-md-12">
@@ -204,8 +261,7 @@
                                     <li class="item list-group-item text-center">Team Name</li>
                                     <li class="item list-group-item">
                                         <div class="input-group col-md-4">
-                                            <!--<input type="text" class="form-control col-md-offset-12" ng-model="thisTeam.name" placeholder="Team name" autofocus>-->
-                                            <md-text-float label="Team name" ng-model="thisTeam.name"></md-text-float>
+                                            <md-text-float label="Team name" ng-model="sampleObj.name"></md-text-float>
                                         </div>
                                         <div class="form-group text-center">
                                             <md-button ng-disabled="!thisTeam.name" ng-click="saveChanges()"

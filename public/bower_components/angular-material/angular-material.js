@@ -6114,7 +6114,7 @@
 
                 case "swiperight":  // if it is right
                 case "panright"  :  // it pan right
-                                    // Now do this...
+                    // Now do this...
                     self.select(self.previous());
                     break;
 

@@ -3,11 +3,14 @@
         <h4>Pana Reporter</h4>
 
         <div class="btn-group pull-right">
-            <md-button href="#dashboard" class="btn md-raised btn-sm">{{currentUser.name}}</md-button>
+            <md-button href="#dashboard" class="btn md-raised btn-sm">{{userName}}</md-button>
             <md-button ng-click="logout()" class="btn md-raised btn-sm">LogOut</md-button>
         </div>
     </div>
 </div>
+<br>
+<hr>
+<br>
 <div class="container">
     <alert class="pull-right" ng-repeat="alert in alerts" type="{{alert.type}}" close="alerts.splice(0,1)">
         {{alert.msg}}
@@ -30,8 +33,12 @@
                                 <details>
                                     <summary class="btn btn-lg btn-block btn-info">My Teams</summary>
                                     <hr>
+                                    <h4 class="text-center text-info" ng-show="currentUser.myTeams.length==0">Sorry You Don't have any Team
+                                        <md-button class="btn btn-md md-raised md-primary" ng-click="open('sm')">Create New Team ?
+                                        </md-button>
+                                    </h4>
                                     <div ng-repeat="team in currentUser.myTeams">
-                                        <md-button class="btn btn-lg btn-block md-raised md-primary"
+                                        <md-button class="btn btn-md btn-block md-raised md-primary"
                                                    ng-href="#{{team.teamId}}">{{team.name}}
                                         </md-button>
                                         <br>
@@ -44,8 +51,10 @@
                                 <details>
                                     <summary class="btn btn-lg btn-block btn-danger">Teams I'm Part of</summary>
                                     <hr>
+                                    <h4 class="text-center text-info" ng-show="currentUser.memberOf.length==0">Sorry You aren't part of any Team
+                                    </h4>
                                     <div ng-repeat="team in currentUser.memberOf">
-                                        <md-button class="btn btn-lg btn-block md-raised md-warn"
+                                        <md-button class="btn btn-md btn-block md-raised md-warn"
                                                    ng-href="#{{team.teamId}}">{{team.name}}
                                         </md-button>
                                         <br>
