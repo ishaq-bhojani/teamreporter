@@ -1,7 +1,755 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33030f3e-093a-4764-ac36-e6d742a9563a" name="Default" comment="" />
+    <list default="true" id="33030f3e-093a-4764-ac36-e6d742a9563a" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\qs\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\qs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\qs\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\qs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\qs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\bytes\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\raw-body\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\types\mime.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\node_modules\mime\types\node.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\node_modules\type-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\body-parser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\lib\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie-signature\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie-signature\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie-signature\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie-signature\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie-signature\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie-signature\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\test\mocha.opts" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\test\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\node_modules\cookie\test\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\cookie-parser\test\cookieParser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\debug\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\debug\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\debug\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\debug\lib\debug.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\debug\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\ejs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\ejs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\examples\client.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\examples\functions.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\examples\functions.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\examples\list.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\examples\list.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\lib\ejs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\lib\filters.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\support\compile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\ejs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\backslash.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\backslash.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\comments.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\comments.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\double-quote.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\double-quote.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\error.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\error.out" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\fail.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\include.css.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\include.css.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\include.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\include.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\includes\menu-item.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\includes\menu\item.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\menu.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\menu.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\messed.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\messed.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\newlines.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\newlines.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\no.newlines.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\no.newlines.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\para.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\pet.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\single-quote.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\single-quote.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\ejs\test\fixtures\user.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\benchmarks\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\benchmarks\middleware.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\benchmarks\run" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\application.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\express.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\middleware\init.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\middleware\query.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\request.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\response.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\router\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\router\layer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\router\route.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\lib\view.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\types\mime.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\mime\types\node.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\examples\accept.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\examples\charset.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\examples\encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\examples\language.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\charset.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\language.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\mediaType.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\lib\negotiator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\test\charset.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\test\encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\test\language.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\node_modules\negotiator\test\mediaType.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\test\charset.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\test\encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\test\language.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\accepts\test\type.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\buffer-crc32\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\buffer-crc32\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\buffer-crc32\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\buffer-crc32\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\buffer-crc32\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\buffer-crc32\tests\crc.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie-signature\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie-signature\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie-signature\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie-signature\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie-signature\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie-signature\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\test\mocha.opts" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\test\parse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\cookie\test\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\escape-html\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\escape-html\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\escape-html\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\escape-html\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\escape-html\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\escape-html\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\fresh\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\fresh\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\fresh\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\fresh\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\fresh\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\fresh\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\merge-descriptors\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\merge-descriptors\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\merge-descriptors\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\merge-descriptors\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\merge-descriptors\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\methods\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\methods\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\methods\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\methods\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\parseurl\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\parseurl\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\parseurl\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\parseurl\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\path-to-regexp\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\qs\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\qs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\qs\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\qs\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\qs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\range-parser\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\range-parser\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\range-parser\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\range-parser\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\range-parser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\range-parser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\lib\send.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\types\mime.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\node_modules\mime\types\node.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\send\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\lib\send.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\fresh\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\fresh\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\fresh\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\fresh\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\fresh\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\fresh\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\types\mime.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\mime\types\node.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\range-parser\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\range-parser\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\range-parser\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\range-parser\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\range-parser\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\node_modules\range-parser\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\node_modules\send\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\serve-static\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\mime.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\types\mime.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\node_modules\mime\types\node.types" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\type-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\utils-merge\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\utils-merge\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\utils-merge\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\utils-merge\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\node_modules\utils-merge\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\express\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\contRun.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\aggregate\aggregate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\aggregate\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\aggregate\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\doc-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\express\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\express\connection-sharing\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\express\connection-sharing\app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\express\connection-sharing\modelA.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\express\connection-sharing\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\express\connection-sharing\routes.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\geospatial\geoJSONSchema.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\geospatial\geoJSONexample.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\geospatial\geospatial.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\geospatial\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\geospatial\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\globalschemas\gs_example.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\globalschemas\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\lean\lean.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\lean\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\lean\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\mapreduce\mapreduce.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\mapreduce\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\mapreduce\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\population\population-across-three-collections.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\population\population-basic.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\population\population-of-existing-doc.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\population\population-of-multiple-existing-docs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\population\population-options.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\population\population-plain-objects.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\promises\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\promises\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\promises\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\querybuilder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\querybuilder\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\querybuilder\querybuilder.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\replicasets\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\replicasets\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\replicasets\replica-sets.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\schema\schema.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\schema\storing-schemas-as-json\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\schema\storing-schemas-as-json\schema.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\statics\person.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\examples\statics\statics.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\aggregate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\connectionstate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\document.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\drivers\SPEC.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\drivers\node-mongodb-native\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\drivers\node-mongodb-native\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\cast.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\divergentArray.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\messages.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\missingSchema.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\overwriteModel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\validation.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\validator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\error\version.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\internal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\model.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\query.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\queryhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\querystream.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\array.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\boolean.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\date.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\documentarray.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\mixed.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\number.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schema\string.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schemadefault.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\schematype.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\statemachine.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\types\array.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\types\buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\types\documentarray.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\types\embedded.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\types\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\types\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\lib\virtualtype.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\hooks.alt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\hooks\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\aggregation_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_cr.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_gssapi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_plain.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_scram.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\auth\mongodb_x509.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\aggregation.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\batch\common.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\batch\ordered.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\batch\unordered.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\commands.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\core.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\geo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\query.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\collection\shared.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\command_cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\base_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\db_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\delete_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\get_more_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\insert_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\kill_cursor_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\query_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\commands\update_command.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\base.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_pool.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\connection_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\mongos.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\read_preference.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\ha.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\options.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\repl_set.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\repl_set_state.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\strategies\ping_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\repl_set\strategies\statistics_strategy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\server_capabilities.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\connection\url_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\cursorstream.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\db.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\chunk.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\grid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\gridstore.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\gridfs\readstream.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\mongo_client.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\responses\mongo_reply.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\scope.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\lib\mongodb\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\browser_build\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\browser_build\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\Release\.deps\Release\bson.node.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\Release\.deps\Release\obj.target\bson\ext\bson.o.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\Release\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\Release\linker.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\Release\obj.target\bson\ext\bson.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\binding.Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\bson.target.mk" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\gyp-mac-tool" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\bson.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\bson.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\win32\ia32\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\win32\x64\bson.node" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\ext\wscript" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\binary.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\binary_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\bson.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\bson_new.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\code.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\db_ref.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\double.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\float_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\long.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\max_key.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\min_key.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\objectid.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\lib\bson\timestamp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\.dntrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\include_dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\nan.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\node_modules\nan\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\gleak.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\bson\tools\jasmine-1.1.0\jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\.deps\Release\kerberos.node.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\.deps\Release\obj.target\kerberos\lib\base64.o.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\.deps\Release\obj.target\kerberos\lib\kerberos.o.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\.deps\Release\obj.target\kerberos\lib\kerberos_context.o.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\.deps\Release\obj.target\kerberos\lib\kerberosgss.o.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\.deps\Release\obj.target\kerberos\lib\worker.o.d" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\kerberos.node" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\linker.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\obj.target\kerberos\lib\base64.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\obj.target\kerberos\lib\kerberos.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\obj.target\kerberos\lib\kerberos_context.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\obj.target\kerberos\lib\kerberosgss.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\Release\obj.target\kerberos\lib\worker.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\binding.Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\gyp-mac-tool" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\kerberos.target.mk" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\builderror.log" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\auth_processes\mongodb.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberos_context.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberosgss.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\kerberosgss.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\sspi.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\base64.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\base64.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos_sspi.c" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\kerberos_sspi.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\worker.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_buffer_descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_context.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\win32\wrappers\security_credentials.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\worker.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\lib\worker.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\kerberos_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\kerberos_win32_test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\win32\security_buffer_descriptor_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\win32\security_buffer_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\test\win32\security_credentials_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_duplex.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_readable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_transform.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\lib\_stream_writable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\float.patch" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is\util.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\passthrough.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\readable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\transform.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\node_modules\readable-stream\writable.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mongodb\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpath\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\libraries\Node_js_Dependencies_for_mpromise.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\mpromise.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\other.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\lib\promise.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\test\promise.domain.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\test\promise.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mpromise\test\promises.Aplus.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\collection\collection.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\collection\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\collection\node.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\env.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\mquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\permissions.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\lib\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\collection\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\collection\mongo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\collection\node.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\env.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\utils.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\mquery\test\utils.test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\ms.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\test\support\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\ms\test\test.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\muri\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\regexp-clone\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\bench.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\lib\sliced.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\node_modules\sliced\test\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\release-items.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\static.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\mongoose\website.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\History.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\component.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\node_modules\bytes\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\morgan\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Team Reporter\node_modules\static-favicon\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Team Reporter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,29 +763,16 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Team Reporter" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.291667" vertical-offset="38" max-vertical-offset="510">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="86" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="86" />
               <folding />
             </state>
@@ -45,10 +780,60 @@
         </entry>
       </file>
       <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/dashboard.js">
+        <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teamView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/teamView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.032136105">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -57,24 +842,37 @@
       <file leaf-file-name="signUp.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/signUp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="555">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="303">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="reportSchema.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB/models/reportSchema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -107,19 +905,27 @@
         <option value="$PROJECT_DIR$/public/javaScripts/routes.js" />
         <option value="$PROJECT_DIR$/public/views/login.html" />
         <option value="$PROJECT_DIR$/public/views/signUp.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/bson/ext/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="22" />
-    <option name="width" value="796" />
-    <option name="height" value="574" />
+  <component name="NamedScopeManager">
+    <order />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1292" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -142,7 +948,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,7 +1023,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,25 +1077,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Team Reporter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Team Reporter" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,13 +1101,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Student System" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -337,15 +1130,11 @@
       <recent name="$PROJECT_DIR$/public/libraries" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.bin/www">
+  <component name="RunManager" selected="Node.js.Unnamed">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -353,6 +1142,10 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -371,12 +1164,21 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files (x86)/nodejs/node" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="Basic" />
+      <RunnerSettings RunnerId="debuggableProgram" />
+      <ConfigurationWrapper RunnerId="Basic" />
+      <ConfigurationWrapper RunnerId="debuggableProgram" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Unnamed" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -392,28 +1194,48 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="796" height="574" extended-state="6" />
+    <frame x="-8" y="-8" width="1292" height="1000" extended-state="1" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23354839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49377593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2634855" sideWeight="0.49935484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23684211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5871369" sideWeight="0.50064516" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5057604" sideWeight="0.49920508" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26152074" sideWeight="0.49935484" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -427,402 +1249,104 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/login.js</url>
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
           <line>31</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/login.js</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/login.js</url>
-          <line>26</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/login.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>46</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>45</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>51</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/dashboard.js</url>
+          <line>48</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
+    <entry file="file://$PROJECT_DIR$/DB/models/reportSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375">
-          <caret line="7" column="47" selection-start-line="5" selection-start-column="20" selection-end-line="7" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB/models/userSchema.js">
+    <entry file="file://$PROJECT_DIR$/DB/models/reportSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="255">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/signUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="390">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="375">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="510">
-          <caret line="14" column="113" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="735">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/signUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="840">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="375">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="510">
-          <caret line="23" column="132" selection-start-line="23" selection-start-column="132" selection-end-line="23" selection-end-column="132" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="315">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/signUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="510">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/models/teamsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="255">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/models/userSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1035">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="990">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="330">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/libraries/js/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3270">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/libraries/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="282">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4920635" vertical-offset="4673" max-vertical-offset="5835">
-          <caret line="326" column="0" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2858" max-vertical-offset="8070">
-          <caret line="194" column="15" selection-start-line="194" selection-start-column="15" selection-end-line="194" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/startbootstrap-sb-admin-2-1.0.1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="335">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/connection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4532967" vertical-offset="0" max-vertical-offset="364">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33146068" vertical-offset="2971" max-vertical-offset="13530">
-          <caret line="204" column="12" selection-start-line="204" selection-start-column="12" selection-end-line="204" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/WebStorm9/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32984293" vertical-offset="6477" max-vertical-offset="7875">
-          <caret line="455" column="25" selection-start-line="455" selection-start-column="25" selection-end-line="455" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/models/reportsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43010753" vertical-offset="0" max-vertical-offset="435">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/models/teamsSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21146953" vertical-offset="31" max-vertical-offset="420">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="300">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="930">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18518518" vertical-offset="0" max-vertical-offset="324">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8333335" vertical-offset="19" max-vertical-offset="345">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="735">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19736843" vertical-offset="0" max-vertical-offset="456">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/signUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4272152" vertical-offset="0" max-vertical-offset="375">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/signUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22796352" vertical-offset="0" max-vertical-offset="390">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB/models/userSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22796352" vertical-offset="0" max-vertical-offset="329">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41033435" vertical-offset="0" max-vertical-offset="375">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.291667" vertical-offset="38" max-vertical-offset="510">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="86" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13677812" vertical-offset="60" max-vertical-offset="840">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/signUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="555">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
           <folding />
         </state>
@@ -830,8 +1354,332 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="47" selection-start-line="5" selection-start-column="20" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/models/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="113" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="132" selection-start-line="23" selection-start-column="132" selection-end-line="23" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/models/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/libraries/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4532967">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18518518">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8333335">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4272152">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/signUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22796352">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/models/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22796352">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41033435">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13677812">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/models/reportSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37649062">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/signUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.586035">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javaScripts/controllers/teamView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032136105">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>

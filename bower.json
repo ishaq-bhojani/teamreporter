@@ -1,0 +1,14 @@
+{
+  "name": "Team Reporter",
+  "version": "1.0.0",
+  "description": "Team Reporter Application",
+  "main": "bin/www",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
