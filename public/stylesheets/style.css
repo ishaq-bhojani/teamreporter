@@ -11,6 +11,11 @@ a {
     display: block !important;
 }
 
+.saparate-line2 {
+    display: block !important;
+    margin: 5px auto
+}
+
 .size-adjust {
     margin-top: 2px;
     height: 45px !important;
@@ -40,4 +45,8 @@ md-checkbox {
 
 .text-align-class-left {
     text-align: left !important;
+}
+.width-less-70{
+    width: 70%;
+    display: inline-block;
 }
