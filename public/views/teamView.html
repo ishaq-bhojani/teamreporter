@@ -43,37 +43,38 @@
         </table>
     </tab>
     <tab heading="Reports">
-        <md-button class="md-primary md-raised btn btn-md" ng-show="showButton"
-                   ng-click="showButton=false;showRepSub=true;">Submit
+        <md-button class="saparate-line2 md-primary md-raised btn btn-md" ng-hide="showButton"
+                   ng-click="showButtonOrNot()">Submit
             / Edit Today's Report
         </md-button>
-
-        <div ng-show="showRepSub" class="text-center">
+        <div class="pull-right one-line">
+            <datepicker ng-model="reportOfDate" ng-change="getReportOf(reportOfDate)" show-weeks="true"
+                        class="well well-sm"></datepicker>
+        </div>
+        <div ng-if="showButton" class="text-center width-less-70">
 
             <hr style="clear: both">
-            <table class="table table-hover one-line" ng-init="data123=[{questions:null.question,answers:null}]">
-                <tr ng-repeat="question in $root.thisTeam.reportSettings.questions">
-                    <label>
-                        <td class="saparate-line">Q:{{$index+1}} {{question.question}}
-                            <input type="hidden" class="form-control hidden"
-                                   value="{{data123[$index].questions=question.question}}"/>
-                        </td>
+            <table class="table table-hover one-line">
+                <tr ng-repeat="question in demoReport">
                         <td class="saparate-line">
-                            <textarea ng-model="data123[$index].answers" class="form-control" rows="3"></textarea>
+                            <md-input-container flex>
+                                <label>Q:{{$index+1}} {{question.questions}}</label>
+                                <textarea ng-model="question.answers" columns="1" md-maxlength="150"></textarea>
+                            </md-input-container>
                         </td>
-                    </label>
                 </tr>
             </table>
-            <md-button class="md-raised md-primary btn-lg"
-                       ng-disabled="!data123[0].answers || !data123[1].answers || !data123[2].answers"
-                       ng-click="submitReport(data123); data123=[];showRepSub=false;showButton=true;">Submit
+            <md-button ng-hide="reportEditMode" class="md-raised md-primary btn-lg"
+                       ng-click="submitReport(demoReport);showRepSub=false;showButton=true;">Submit
+            </md-button>
+            <md-button ng-show="reportEditMode" class="md-raised md-primary btn-lg"
+                       ng-click="editReport(demoReport);showRepSub=false;showButton=true;">Submit
             </md-button>
         </div>
-        <hr>
         <h2 class="text-center text-info" ng-show="thisReports.length==0">Sorry there are no reports of
             {{finalDate}}</h2>
 
-        <div class="form-group" ng-repeat="userReport in thisReports">
+        <div class="width-less-70 form-group" ng-if="showReport" ng-repeat="userReport in thisReports">
             <details>
                 <summary class="btn btn-lg btn-info btn-block text-align-class-left">
                     {{userReport.userId.name}}'s Report of Date
@@ -90,12 +91,10 @@
                 </table>
             </details>
         </div>
-        <div class="pull-right one-line">
-            <b class="text-justify text-info">See Reports of</b>
-            <hr>
+        <!--<div class="pull-right one-line">
             <datepicker ng-model="reportOfDate" ng-change="getReportOf(reportOfDate)" show-weeks="true"
                         class="well well-sm"></datepicker>
-        </div>
+        </div>-->
     </tab>
     <tab heading="Report Settings" ng-hide="isNotAdmin">
         <div class="row">
@@ -173,63 +172,64 @@
                                 <hr>
                                 <div class="form-group text-center">
                                     <label>
-                                        Time to Send Report Mail
-                                        <select ng-model="sampleObj.reportSettings.timeForReportMail">
-                                            <option value="0">0:00</option>
-                                            <option value="1">1:00</option>
-                                            <option value="2">2:00</option>
-                                            <option value="3">3:00</option>
-                                            <option value="4">4:00</option>
-                                            <option value="5">5:00</option>
-                                            <option value="6">6:00</option>
-                                            <option value="7">7:00</option>
-                                            <option value="8">8:00</option>
-                                            <option value="9">9:00</option>
-                                            <option value="10">10:00</option>
-                                            <option value="11">11:00</option>
-                                            <option value="12">12:00</option>
-                                            <option value="13">13:00</option>
-                                            <option value="14">14:00</option>
-                                            <option value="15">15:00</option>
-                                            <option value="16">16:00</option>
-                                            <option value="17">17:00</option>
-                                            <option value="18">18:00</option>
-                                            <option value="19">19:00</option>
-                                            <option value="20">20:00</option>
-                                            <option value="21">21:00</option>
-                                            <option value="22">22:00</option>
-                                            <option value="23">23:00</option>
-                                        </select>
+                                    Time to Send Report Mail &nbsp;&nbsp;
+                                        <md-select placeholder="Time to Send Report Mail" ng-model="sampleObj.reportSettings.timeForReportMail">
+                                            <md-option value="0">0:00</md-option>
+                                            <md-option value="1">1:00</md-option>
+                                            <md-option value="2">2:00</md-option>
+                                            <md-option value="3">3:00</md-option>
+                                            <md-option value="4">4:00</md-option>
+                                            <md-option value="5">5:00</md-option>
+                                            <md-option value="6">6:00</md-option>
+                                            <md-option value="7">7:00</md-option>
+                                            <md-option value="8">8:00</md-option>
+                                            <md-option value="9">9:00</md-option>
+                                            <md-option value="10">10:00</md-option>
+                                            <md-option value="11">11:00</md-option>
+                                            <md-option value="12">12:00</md-option>
+                                            <md-option value="13">13:00</md-option>
+                                            <md-option value="14">14:00</md-option>
+                                            <md-option value="15">15:00</md-option>
+                                            <md-option value="16">16:00</md-option>
+                                            <md-option value="17">17:00</md-option>
+                                            <md-option value="18">18:00</md-option>
+                                            <md-option value="19">19:00</md-option>
+                                            <md-option value="20">20:00</md-option>
+                                            <md-option value="21">21:00</md-option>
+                                            <md-option value="22">22:00</md-option>
+                                            <md-option value="23">23:00</md-option>
+                                                </md-optgroup>
+                                        </md-select>
                                     </label>
                                     |
                                     <label>
+                                        <md-select placeholder="Time to Send Reminder Mail" ng-model="sampleObj.reportSettings.timeForReminderMail">
+                                            <md-option value="0">0:00</md-option>
+                                            <md-option value="1">1:00</md-option>
+                                            <md-option value="2">2:00</md-option>
+                                            <md-option value="3">3:00</md-option>
+                                            <md-option value="4">4:00</md-option>
+                                            <md-option value="5">5:00</md-option>
+                                            <md-option value="6">6:00</md-option>
+                                            <md-option value="7">7:00</md-option>
+                                            <md-option value="8">8:00</md-option>
+                                            <md-option value="9">9:00</md-option>
+                                            <md-option value="10">10:00</md-option>
+                                            <md-option value="11">11:00</md-option>
+                                            <md-option value="12">12:00</md-option>
+                                            <md-option value="13">13:00</md-option>
+                                            <md-option value="14">14:00</md-option>
+                                            <md-option value="15">15:00</md-option>
+                                            <md-option value="16">16:00</md-option>
+                                            <md-option value="17">17:00</md-option>
+                                            <md-option value="18">18:00</md-option>
+                                            <md-option value="19">19:00</md-option>
+                                            <md-option value="20">20:00</md-option>
+                                            <md-option value="21">21:00</md-option>
+                                            <md-option value="22">22:00</md-option>
+                                            <md-option value="23">23:00</md-option>
+                                        </md-select>&nbsp;&nbsp;
                                         Time to Send Reminder Mail
-                                        <select ng-model="sampleObj.reportSettings.timeForReminderMail">
-                                            <option value="0">0:00</option>
-                                            <option value="1">1:00</option>
-                                            <option value="2">2:00</option>
-                                            <option value="3">3:00</option>
-                                            <option value="4">4:00</option>
-                                            <option value="5">5:00</option>
-                                            <option value="6">6:00</option>
-                                            <option value="7">7:00</option>
-                                            <option value="8">8:00</option>
-                                            <option value="9">9:00</option>
-                                            <option value="10">10:00</option>
-                                            <option value="11">11:00</option>
-                                            <option value="12">12:00</option>
-                                            <option value="13">13:00</option>
-                                            <option value="14">14:00</option>
-                                            <option value="15">15:00</option>
-                                            <option value="16">16:00</option>
-                                            <option value="17">17:00</option>
-                                            <option value="18">18:00</option>
-                                            <option value="19">19:00</option>
-                                            <option value="20">20:00</option>
-                                            <option value="21">21:00</option>
-                                            <option value="22">22:00</option>
-                                            <option value="23">23:00</option>
-                                        </select>
                                     </label>
                                 </div>
                                 <div class="form-group">
@@ -261,7 +261,11 @@
                                     <li class="item list-group-item text-center">Team Name</li>
                                     <li class="item list-group-item">
                                         <div class="input-group col-md-4">
-                                            <md-text-float label="Team name" ng-model="sampleObj.name"></md-text-float>
+                                            <!--<md-text-float label="Team name" ng-model="sampleObj.name"></md-text-float>-->
+                                            <md-input-container>
+                                                <label>Team name</label>
+                                                <input type="text" ng-model="sampleObj.name">
+                                            </md-input-container>
                                         </div>
                                         <div class="form-group text-center">
                                             <md-button ng-disabled="!thisTeam.name" ng-click="saveChanges()"

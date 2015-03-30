@@ -29,7 +29,7 @@ angular.module('panaReporter')
                         //$scope.getReportOf($scope.reportOfDate);
                         $scope.days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
                         $scope.userName = $cookies.myName;
-                        $rootScope.thisTeam.admin._id !== $rootScope.currentUser._id ? $scope.isNotAdmin = true : $scope.isNotAdmin = false;
+                        $rootScope.thisTeam.admin._id !== $cookies.user ? $scope.isNotAdmin = true : $scope.isNotAdmin = false;
                     }
                     else {
                         $location.url('/dashboard');
@@ -50,6 +50,7 @@ angular.module('panaReporter')
             $scope.months = ["January", "February", "March", "April", "May", "June",
                 "July", "August", "September", "October", "November", "December"];
             $scope.getReportOf = function (reportOfDate) {
+                $scope.showButton = false;
                 var day = reportOfDate.getDay();
                 var date = reportOfDate.getDate();
                 var month = reportOfDate.getMonth();
@@ -60,7 +61,7 @@ angular.module('panaReporter')
                     .success(function (data) {
                         console.log(data);
                         $rootScope.thisReports = data;
-
+                        $scope.showReport=true;
                     })
                     .error(function (err) {
                         $scope.addAlert("Sorry we Can't find the Reports" + err, 'danger')
@@ -69,6 +70,8 @@ angular.module('panaReporter')
             };
 
             //
+            $scope.showButton = false;
+            $scope.showReport=false;
             $scope.addMember = function (memberData) {
                 console.log(memberData);
                 $http.post('dashboard/addMember', memberData
@@ -80,8 +83,38 @@ angular.module('panaReporter')
                         $scope.addAlert('Error in Adding Member ' + err, 'danger');
                     })
             };
-            $scope.showRepSub = false;
-            $scope.showButton = true;
+            $scope.showButtonOrNot = function () {
+                $scope.showReport=false;
+                var reportOfDate = new Date();
+                var day = reportOfDate.getDay();
+                var date = reportOfDate.getDate();
+                var month = reportOfDate.getMonth();
+                var year = reportOfDate.getFullYear();
+                //Tuesday, December 16, 2014
+                var finalDate = $scope.days[day] + ', ' + $scope.months[month] + ' ' + date + ', ' + year;
+                $http.post('dashboard/findOneReport', {date: finalDate})
+                    .success(function (data) {
+                        $scope.showButton = true;
+                        $scope.reportEditMode = true;
+                        if (data) {
+                            $scope.reportId = data._id;
+                            $scope.demoReport = data.reports;
+                            console.log(data);
+                        }
+                        else {
+                            $scope.demoReport = [];
+                            for (var i = 0; i < $rootScope.thisTeam.reportSettings.questions.length; i++) {
+                                $scope.demoReport.push({
+                                    answers: "", questions: $rootScope.thisTeam.reportSettings.questions[i].question
+                                })
+                            }
+                        }
+                    })
+                    .error(function (err) {
+                        $scope.addAlert("Sorry we are having some problems " + err, 'danger')
+                    });
+
+            };
             $scope.logout = function () {
                 $cookies.user = null;
                 $cookies.myTeam = null;
@@ -90,23 +123,25 @@ angular.module('panaReporter')
                 $rootScope.currentUser = null;
                 $location.url('/');
             };
-            $scope.submitReport = function (data) {
-
+            $scope.editReport = function (data) {
                 $scope.getReportOf(new Date());
-                $http.post('dashboard/submitReport', {
-                    teamId: $rootScope.thisTeam._id,
-                    userId: $rootScope.currentUser._id,
-                    reports: data
+                $http.put('dashboard/submitReport', {
+                    reports: data, reportId: $scope.reportId
                 })
                     .success(function (data) {
-                        if (data.code == 11000) {
-                            $cookies.myTeam = $scope.sampleObj._id;
-                            $scope.addAlert('You Cant Submit Report again in a Day', 'danger');
-                        }
-                        else {
-                            $rootScope.thisReports.push(data);
-                        }
+                        $scope.getReportOf(new Date());
                     })
+                    .error(function (err) {
+                        $scope.addAlert("Sorry Something went wrong " + err, 'danger');
+                    });
+            };
+            $scope.submitReport = function (data) {
+                console.log(data);
+                $http.post('dashboard/submitReport', {
+                    reports: data
+                }).success(function (data) {
+                    $scope.getReportOf(new Date());
+                })
                     .error(function (err) {
                         $scope.addAlert("Sorry we can't Submit your Report " + err, 'danger');
                     });

@@ -62,6 +62,40 @@ router.post('/addMember', function (req, res) {
 
 
 });
+router.put('/submitReport', function (req, res) {
+    var dateTime = new Date();
+    var day = dateTime.getDay();
+    var dayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    var date = dateTime.getDate();
+    var month = dateTime.getMonth();
+    var monthsArray = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+    var year = dateTime.getFullYear();
+    //Tuesday, December 16, 2014
+    var finalDate = dayArray[day] + ', ' + monthsArray[month] + ' ' + date + ', ' + year;
+    var hours = dateTime.getHours();
+    var minutes = dateTime.getMinutes();
+    var finalTime = hours + ':' + minutes;
+    var objToSubmit={
+        teamId: req.cookies.myTeam,
+        userId: req.cookies.user,
+        reports: req.body.reports,
+        submitDate: finalDate,
+        submitTime: finalTime
+    };
+    if (req.cookies.myTeam && req.cookies.user) {
+        Report.findByIdAndUpdate(req.body.reportId,objToSubmit)
+                    .exec(function (err, reportdata) {
+                        if (err) {
+                            res.send(err)
+                        }
+                        else {
+                            res.json(reportdata);
+                        }
+                    });
+            }
+
+});
 router.post('/submitReport', function (req, res) {
     var dateTime = new Date();
     var day = dateTime.getDay();
@@ -115,6 +149,21 @@ router.post('/findReport', function (req, res) {
     }
     Report.find({submitDate: req.body.date, teamId: req.cookies.myTeam})
         .populate('userId', 'name')
+        .exec(function (err, data) {
+            if (err) {
+                res.send(err)
+            }
+            else {
+                res.json(data);
+            }
+        })
+});
+router.post('/findOneReport', function (req, res) {
+    if (!req.cookies.myTeam) {
+        res.end("not found");
+        return;
+    }
+    Report.findOne({submitDate: req.body.date, teamId: req.cookies.myTeam, userId:req.cookies.user})
         .exec(function (err, data) {
             if (err) {
                 res.send(err)
