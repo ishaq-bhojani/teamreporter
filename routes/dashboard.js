@@ -16,7 +16,19 @@ router.get('/:teamId', function (req, res) {
                 }
                 else {
                     if (data != null) {
-                        res.send(data);
+                        if(req.cookies.user == data.admin._id){
+                            res.send(data);
+                        }
+                        else{
+                            for(var i=0;i<data.members.length;i++){
+                                if(req.cookies.user == data.members[i]._id){
+                                    delete data.reportSettings;
+                                    res.send(data);
+                                    break;
+                                }
+                                res.send(null)
+                            }
+                        }
                     }
                     else {
                         res.send(null)
