@@ -6,7 +6,7 @@ angular.module('panaReporter', ['ngRoute', 'ui.bootstrap', 'ngMaterial', 'ui.sor
                 controller: 'loginCtrl'
             })
             .when('/signup', {
-                templateUrl: 'views/signup.html',
+                templateUrl: 'views/signUp.html',
                 controller: 'signupCtrl'
             })
             .when('/dashboard', {
