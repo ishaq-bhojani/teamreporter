@@ -1,4 +1,10 @@
 var express = require('express');
+var app = express();
+app.set('port', process.env.PORT || 5000);
+
+var server = app.listen(app.get('port'), function () {
+    console.log('Express server listening on port ' + server.address().port);
+});
 var path = require('path');
 var favicon = require('static-favicon');
 var logger = require('morgan');
@@ -12,12 +18,7 @@ var routes = require('./routes/index');
 var login = require('./routes/login');
 var signup = require('./routes/signup');
 var dashboard = require('./routes/dashboard');
-var app = express();
-app.set('port', process.env.PORT || 5000);
 
-var server = app.listen(app.get('port'), function () {
-    debug('Express server listening on port ' + server.address().port);
-});
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
