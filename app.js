@@ -12,7 +12,7 @@ require('./DB/models/userSchema');
 require('./DB/models/reportSchema');
 var routes = require('./routes/index');
 var login = require('./routes/login');
-var signup = require('./routes/signUp');
+var signup = require('./routes/signup');
 var dashboard = require('./routes/dashboard');
 
 // view engine setup
