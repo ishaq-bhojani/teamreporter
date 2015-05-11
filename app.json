@@ -1,0 +1,7 @@
+{
+  "name": "Team Reporter",
+  "description": "A Team Reporter App using MEAN",
+  "repository": "https://github.com/ishaq-bhojani/teamreporter",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["Team", "Reporter", "App"]
+}
